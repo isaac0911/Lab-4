@@ -606,7 +606,7 @@ public class Controlador{
 				Vista.MostrarContactos(Contactos);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder ver los contactos";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder ver los contactos";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -621,7 +621,7 @@ public class Controlador{
 				Vista.LlamarAContacto(ContactoALlamar);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder realizar una llamada";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder realizar una llamada";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -648,7 +648,7 @@ public class Controlador{
 				}
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder cambiar la salida de audio";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder cambiar la salida de audio";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1133,7 +1133,7 @@ public class Controlador{
 				Vista.MostrarContactos(Contactos);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder ver los contactos";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder ver los contactos";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1148,7 +1148,7 @@ public class Controlador{
 				Vista.LlamarAContacto(ContactoALlamar);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder realizar una llamada";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder realizar una llamada";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1174,7 +1174,7 @@ public class Controlador{
 				}
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder cambiar la llamada en espera";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder cambiar la llamada en espera";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1659,7 +1659,7 @@ public class Controlador{
 				Vista.MostrarContactos(Contactos);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder ver los contactos";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder ver los contactos";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1675,7 +1675,7 @@ public class Controlador{
 				Vista.LlamarAContacto(ContactoALlamar);
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder realizar una llamada";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder realizar una llamada";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
@@ -1699,7 +1699,7 @@ public class Controlador{
 				}
 				
 			}else if(!ElTelefonoEstaConectado){
-				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el radio para poder llamar al ultimo contacto";
+				String mensaje = "\nNo se puede realizar esta accion. Conecte primero el telefono para poder llamar al ultimo contacto";
 				Vista.MostrarMensaje(mensaje);
 			}
 			
